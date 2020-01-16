@@ -29,7 +29,7 @@ data "aws_ami" "windows_ami" {
   filter {
     name   = "name"
     # values = ["Windows_Server-1809-English-Core-ContainersLatest-2019.09.11"]
-    values = ["Windows_Server-2019-English-Full-ContainersLatest-2019.09.11"]
+    values = ["Windows_Server-2019-English-Full-ContainersLatest-2020.01.15"]
   }
 }
 
